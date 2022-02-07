@@ -34,7 +34,7 @@ To make use of these files, carry out the following steps:
 
 At this point, you'll be able to see the source files in Atom and the way they'll be displayed on the Web in your browser. All that's left to do is read them! I've tried to be fairly explanatory in the source HTML, but here are a few things that will help your reading:
 
-### comments
+### HTML Comments
 
 HTML, like most markup and programming and languages, allows writers to embed comments in their source files that aren't displayed on the Web. (People can look at your source files in published HTML sites, however, and will see your comments.) The comment syntax looks like this:
 
@@ -48,7 +48,7 @@ Note that comments are also used to make a certain part of the text "inactive," 
 
 Tags are the name for markup elements in HTML (also often referred to as elements). In **nearly** all cases, tags with also include closing tags, and closing tags are indicated with a forward slash. Creating a paragraph, for example, will look like this:
 
-> <p>Some paragraph text.</p>
+> &lt;p&gt;Some paragraph text.&lt;p&gt;
 
 ## Closing Thoughts
 
