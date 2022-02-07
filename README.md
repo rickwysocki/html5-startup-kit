@@ -38,7 +38,7 @@ At this point, you'll be able to see the source files in Atom and the way they'l
 
 HTML, like most markup and programming and languages, allows writers to embed comments in their source files that aren't displayed on the Web. (People can look at your source files in published HTML sites, however, and will see your comments.) The comment syntax looks like this:
 
-> <!-- Here's a comment! -->
+> &lt;<!-- Here's a comment! -->&gt;
 
 Note that comments are also used to make a certain part of the text "inactive," as well. For example, you'll see in the files that I've commented out the CSS stylesheet so that you focus primarily on the HTML. There are instructions to remove the commented out section later in the index.html which, in the case of the previous example, would look like this:
 
