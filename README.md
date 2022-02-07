@@ -4,7 +4,7 @@
 
 This repository includes materials related to my course Writing in Digital Environments at Ball State University. Specifically, these materials are designed to provide a **lo-fi entry** entry into editing HTML documents within one to two class sessions.
 
-Drawing on Karl Stolley's call for a lo-fi approach to teaching and producing digital rhetoric, these documents are designed to present simple and easy avenues to experiment with web-production and publishing for students unfamiliar with digital tools.
+Drawing on [Karl Stolley's call for a lo-fi approach](https://kairos.technorhetoric.net/20.2/inventio/stolley/index.html) to teaching and producing digital rhetoric, these documents are designed to present simple and easy avenues to experiment with web-production and publishing for students unfamiliar with digital tools.
 
 What these materials **are**:
 
