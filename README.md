@@ -48,7 +48,7 @@ Note that comments are also used to make a certain part of the text "inactive," 
 
 Tags are the name for markup elements in HTML (also often referred to as elements). In **nearly** all cases, tags with also include closing tags, and closing tags are indicated with a forward slash. Creating a paragraph, for example, will look like this:
 
-> &lt;p&gt;Some paragraph text.&lt;p&gt;
+> &lt;p&gt;Some paragraph text.&lt;/p&gt;
 
 ## Closing Thoughts
 
