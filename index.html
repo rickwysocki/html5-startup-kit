@@ -1,0 +1,50 @@
+<!DOCTYPE html> <!-- explanation -->
+<html lang="en" dir="ltr"> <!-- explanation -->
+  <head> <!-- The "head" is a section that provides the metadata for an HTML page. In other words, the information that goes in the head is not something that will be displayed when a user visits a site. -->
+    <meta charset="utf-8"> <!-- This establishes the character-set used for your website. In general, this doesn't need to be changed from what you see here. -->
+    <title>HTML Startup Guide</title> <!-- This is the title of your webpage (not website). It is important for searching and indexing functions, but will also show up in your browser bar when you visit a page. -->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+  </head> <!-- You may have noticed that there are some tags that include forward slashes, like this one. Forward slashes are used when you are closing a section, like we are with the head here. -->
+  <body> <!-- The body is where all the displayed content of a webpage goes. -->
+
+    <header>
+      <h1>Here's where the title of the page would go! It's using a first-level heading, known as an H1 tag in html. You should only have one H1 tag per page.</h1>
+    </header>
+
+    <main>
+
+      <h2>Explanation of the main tag.</h2>
+
+      <p>If you're looking at this in a browser, you should know that we're now in a section within a "main" tag. The main tag is where all the main content of the page goes. But that doesn't mean you just drop everything in. Rather you use other tags within the main section in what's called a "nested structure." For example, this paragraph is enclosed within "p" tags that you can see if you look at the source HTML. I'll close this paragraph and start a new one.</p>
+
+      <p>See? At this point in the page, notice that there are three sections nested within the main tag: a second-level heading (H2) and two paragraphs. Let me make that an unordered list (ul) with multiple list-items (li), which will make the nested structure more complex:</p>
+
+      <ul>
+        <li>A second-level heading,</li>
+        <li>Two paragraphs,</li>
+        <li>and, now, this list, which itself has nested list-items!
+      </ul>
+
+      <h2>Here's another second-level heading!</h2>
+
+      <p>There are many different HTML elements besides the ones I've discussed so far. I'm just going to add two more. First, you might want to include an image in your HTML page. Typically, you would add images in a folder within your file structure called assets, and then you embed them within your page, like this:
+
+      <figure>
+        <img src="assets/dogs.jpeg" alt="My dogs, Queenie and April, wearing fresh Fall sweaters.">
+        <figcaption>My dogs, Queenie and April, with fresh Fall-wear.</figcaption>
+      </figure>
+
+      <p>When you look at the HTML markup, note that img tag nested within the figure tags is the only necessary part. The figure tags, the alt text, and the figcaption radically increase the accessibility of your text and should be used to meet best-practices.</p>
+
+      <p>One other thing you should be aware of is how to link to other websites and pages on your website. Luckily, both use similar syntax. Here is a link to the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Mozilla Developer Network HTML hub</a>, where you can search for all sorts of useful HTML tags. And <a href="sample-page.html">here is a link to another page on this site.</a></p>
+
+      <p>Finally, you may notice that this website looks like, er, garbage. Go ahead and remove the comments around the CSS line in the head. The CSS file doesn't do much work and won't make the site look much better, but it will help. We'll talk about CSS more if folks are interested.</p>
+
+    </main>
+
+    <footer>
+      <p>These teaching materials were created by <a href="http://rickwysocki.github.io" target="blank">Rick Wysocki</a> and are released under the <a href="https://creativecommons.org/licenses/by-sa/2.0/" target_"blank">Creative Commons License CC-BY-SA</a>. (And this last content is nested within the "Footer" tag.)</p>
+    </footer>
+
+  </body> <!-- explanation -->
+</html> <!-- explanation -->
