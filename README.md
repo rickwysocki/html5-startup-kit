@@ -54,4 +54,4 @@ Tags are the name for markup elements in HTML (also often referred to as element
 
 If you're reading these documents on Github, please let me know if you have any suggestions for how to improve them and / or fork and push changes. Keep in mind, though, that extreme simplicity is the goal.
 
--- [Rick Wysocki](http:rickwysocki.github.io)
+-- [Rick Wysocki](www.rickwysocki.com)
